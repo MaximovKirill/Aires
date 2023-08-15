@@ -1,0 +1,27 @@
+.buyWindow__form {
+  flex-direction: column;
+}
+
+.concert__btns-wrap {
+  gap: 30px;
+}
+
+.concert__ticket {
+  min-width: 120px;
+}
+
+.concert__ticket:hover {
+  color: var(--gray);
+  border: 1px solid #ababab;
+}
+
+.concert__ticket:active {
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+.buyWindow {
+  max-width: 500px;
+  background-color: var(--black);
+}
+
